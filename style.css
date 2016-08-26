@@ -1,5 +1,40 @@
-<!DOCTYPE html>
-<head></head>
-<body>
-<script src="app.js"></script>
-</body>
+/*page showed up in codepen is very differnt from in google.*/
+
+* {
+  outline: dotted 2px red;
+}
+body {
+  background: #444;
+}
+div {
+  padding: px;
+  text-align: center;
+  background-color: #444
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: sans-serif //where one of the google fonts will use
+}
+li {
+  display: inline;
+  margin-top: 100px;
+  margin-right: 80px;
+  width: 30px;
+  font-size:20px;
+}
+p {
+  padding: 10px;
+  text-align:left;
+  font-size: 24px;
+}
+.hero {
+  width: 960px;
+  height: 550px;
+  margin: 0 auto;  //using a placehold pic for now because the salmon pic not working
+}
+a: hover {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-size:26px
+}
